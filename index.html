@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightDark Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        .tagline {
+            font-size: 1.2em;
+            color: #bbb;
+            margin-bottom: 40px;
+        }
+        .games {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .game {
+            background: #1b1b1b;
+            border-radius: 15px;
+            padding: 20px;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .game:hover {
+            transform: translateY(-5px);
+        }
+        .game img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .game a {
+            text-decoration: none;
+            color: #1e90ff;
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background: #111;
+            padding: 30px;
+            margin-top: 50px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #0078e7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="NightDark Store Logo">
+        <h1>NightDark Store</h1>
+        <p class="tagline">NightDark Store crée des jeux mobiles uniques et captivants, offrant des expériences immersives et divertissantes pour tous les joueurs à travers le monde.</p>
+    </header>
+
+    <section class="games">
+        <div class="game">
+            <img src="https://m.media-amazon.com/images/I/81dMmrvWadL.png" alt="Night Endless Battle in Playground’s">
+            <a href="https://www.amazon.com/Night-Endless-Battle-in-Playgrounds/dp/B0F4FZVMK8" target="_blank">Night Endless Battle in Playground’s</a>
+        </div>
+        <div class="game">
+            <img src="https://m.media-amazon.com/images/I/81kbasTeoSL.png" alt="Crazy Boy Horror">
+            <a href="https://www.amazon.com/NightDark-Store-Crazy-Boy-Horror/dp/B0F5J5HBTK" target="_blank">Crazy Boy Horror</a>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea rows="4" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Ou écrivez-nous à : <a href="mailto:ricardoncounden@hotmail.com" style="color:#1e90ff;">ricardoncounden@hotmail.com</a></p>
+    </footer>
+</body>
+</html>
